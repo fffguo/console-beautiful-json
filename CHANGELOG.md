@@ -3,5 +3,13 @@
 # console-beautiful-json Changelog
 
 ## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
+## [1.0.0-RELEASE]
+
+### English
+
+- Add console text to json function
+
+### 中文
+
+- 增加控制台文本转json功能

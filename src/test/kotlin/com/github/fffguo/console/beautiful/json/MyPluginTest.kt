@@ -1,4 +1,4 @@
-package com.github.fffguo.consolebeautifuljson
+package com.github.fffguo.console.beautiful.json
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

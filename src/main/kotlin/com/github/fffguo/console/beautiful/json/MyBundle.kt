@@ -1,4 +1,4 @@
-package com.github.fffguo.consolebeautifuljson
+package com.github.fffguo.console.beautiful.json
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

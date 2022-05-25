@@ -7,13 +7,17 @@ plugins {
     // Java support
     id("java")
     // Kotlin support
-    id("org.jetbrains.kotlin.jvm") version "1.6.10"
+    id("org.jetbrains.kotlin.jvm") version "1.5.30"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.4.0"
+    id("org.jetbrains.intellij") version "1.5.2"
     // Gradle Changelog Plugin
-    id("org.jetbrains.changelog") version "1.3.1"
+    id("org.jetbrains.changelog") version "1.3.0"
     // Gradle Qodana Plugin
-    id("org.jetbrains.qodana") version "0.1.13"
+    id("org.jetbrains.qodana") version "0.1.12"
+}
+
+dependencies {
+    implementation("com.alibaba:fastjson:1.2.83")
 }
 
 group = properties("pluginGroup")

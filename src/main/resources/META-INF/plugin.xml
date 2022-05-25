@@ -1,18 +1,29 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.fffguo.consolebeautifuljson</id>
-    <name>console-beautiful-json</name>
+    <id>com.github.fffguo.console.beautiful.json</id>
+    <name>Console-Beautiful-Json</name>
     <vendor>fffguo</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.fffguo.consolebeautifuljson.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.fffguo.consolebeautifuljson.services.MyProjectService"/>
+        <applicationService
+                serviceImplementation="com.github.fffguo.console.beautiful.json.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.fffguo.console.beautiful.json.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.fffguo.consolebeautifuljson.listeners.MyProjectManagerListener"
+        <listener class="com.github.fffguo.console.beautiful.json.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.github.fffguo.console.beautiful.json.action.ConsoleJsonAction"
+                class="com.github.fffguo.console.beautiful.json.action.ConsoleJsonAction"
+                text="Beautiful Json" description="Beautiful console json">
+            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>

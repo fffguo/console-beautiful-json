@@ -1,9 +1,9 @@
-package com.github.fffguo.consolebeautifuljson.listeners
+package com.github.fffguo.console.beautiful.json.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.fffguo.consolebeautifuljson.services.MyProjectService
+import com.github.fffguo.console.beautiful.json.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

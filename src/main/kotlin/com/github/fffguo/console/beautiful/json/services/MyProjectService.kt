@@ -1,7 +1,7 @@
-package com.github.fffguo.consolebeautifuljson.services
+package com.github.fffguo.console.beautiful.json.services
 
 import com.intellij.openapi.project.Project
-import com.github.fffguo.consolebeautifuljson.MyBundle
+import com.github.fffguo.console.beautiful.json.MyBundle
 
 class MyProjectService(project: Project) {
 
