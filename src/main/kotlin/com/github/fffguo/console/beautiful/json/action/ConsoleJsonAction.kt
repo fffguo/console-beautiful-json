@@ -19,6 +19,7 @@ class ConsoleJsonAction : AnAction() {
         val selectedText = model.selectedText
         if (TextUtils.isEmpty(selectedText)) {
             return
+
         }
 
         val prettyJson = JSONObject.toJSONString(JSON.parseObject(selectedText), true)
