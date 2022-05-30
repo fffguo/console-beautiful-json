@@ -4,6 +4,16 @@
 
 ## [Unreleased]
 
+## [1.0.1-RELEASE]
+
+### English
+
+- Update plugin description
+
+### 中文
+
+- 更新插件描述
+
 ## [1.0.0-RELEASE]
 
 ### English

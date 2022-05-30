@@ -6,6 +6,8 @@
 
 <!-- Plugin description -->
 
+[Github](https://github.com/fffguo/console-beautiful-json)
+
 > Support console to select Chinese text, right-click to format json, make json more beautiful
 
 ## preview
